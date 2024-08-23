@@ -27,4 +27,21 @@ canvas.create_window(200,80,window=url_label)
 
 canvas.create_window(200,100,window=url_entry)
 
+#path to download
+
+path_label = Label(root,text="Select path to download")
+path_button = Button(root,text="Select")
+
+
+canvas.create_window(200,150,window=path_label)
+
+canvas.create_window(200,170,window=path_button)
+
+
+#Download Button
+download_button = Button(text='Download')
+
+canvas.create_window(200,250,window=download_button)
+
+
 root.mainloop()
